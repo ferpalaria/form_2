@@ -61,12 +61,15 @@ fieldset legend {
   color: #535971;
   font-weight: 400;
 
-  padding: 30px 0 16px;
   width: 622px;
 
   margin-bottom: 16px;
 
   border-bottom: 1px solid #e6e6f0;
+}
+
+fieldset + fieldset legend {
+    padding: 30px 0 16px;
 }
 
 .input-wrapper {
