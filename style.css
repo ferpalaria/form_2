@@ -106,13 +106,9 @@ label span {
   gap: 22px;
 }
 
-fieldset:nth-child(1),
-#hide {
-  display: none;
-}
-
 fieldset fieldset legend {
   font-size: 20px;
+  border-bottom: 1px solid #e6e6f0;
 }
 
 .agenda {
@@ -154,6 +150,3 @@ footer button {
 
   border: none;
 }
-
-input::-webkit-input-placeholder {
-  color: white;
